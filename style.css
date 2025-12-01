@@ -1,1 +1,83 @@
 
+/* Umum */
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f6ff;
+  margin: 0;
+  padding: 20px;
+  color: #222;
+}
+
+/* Judul */
+h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 5px;
+}
+
+h4 {
+  color: #004080;
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Header tabel */
+table th {
+  background: #004c99;
+  color: white;
+  padding: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* Isi tabel */
+table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #d9d9d9;
+  color: #003366;
+}
+
+/* Warna selang-seling */
+table tr:nth-child(even) {
+  background-color: #eaf1ff;
+}
+
+table tr:hover {
+  background: #d6e4ff;
+  transition: 0.2s;
+}
+
+/* Iframe map */
+iframe {
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+/* Link */
+a {
+  text-decoration: none;
+  color: #0055cc;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 25px;
+  padding: 10px;
+  font-size: 14px;
+  color: #003366;
+}
